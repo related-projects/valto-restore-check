@@ -1,0 +1,1494 @@
+{
+  "version": 2,
+  "createdAt": "2026-11-02T14:53:06.827Z",
+  "appVersion": "1.0.0",
+  "data": {
+    "wallets": [
+      {
+        "id": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "name": "MoMo",
+        "balance": 2387,
+        "type": "mobile",
+        "color": "#EAB308",
+        "createdAt": "2026-10-07T21:01:45.731Z"
+      },
+      {
+        "id": "f6119252-d22c-4159-b441-ac8a7128b6d5",
+        "name": "Compte Principal",
+        "balance": 1375,
+        "type": "bank",
+        "color": "#F97316",
+        "createdAt": "2026-10-07T21:03:43.468Z"
+      },
+      {
+        "id": "a6da3a0f-8073-41f3-9c7f-2f1cb5c6790d",
+        "name": "Carte Virtuelle MTN",
+        "balance": 16257,
+        "type": "mobile",
+        "color": "#3B82F6",
+        "createdAt": "2026-10-08T02:05:28.282Z"
+      },
+      {
+        "id": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "name": "Pocket",
+        "balance": 2225,
+        "type": "cash",
+        "color": "#EF4444",
+        "createdAt": "2026-10-08T02:17:08.219Z"
+      }
+    ],
+    "transactions": [
+      {
+        "id": "fa8ba52d-3e15-4337-a337-95f33f27bee1",
+        "type": "income",
+        "amount": 300000,
+        "categoryId": "b331439e-3a92-46cd-a0a8-5defe3f0a21f",
+        "walletId": "f6119252-d22c-4159-b441-ac8a7128b6d5",
+        "date": "2026-10-07T21:03:45.169Z",
+        "createdAt": "2026-10-07T21:04:02.876Z"
+      },
+      {
+        "id": "567a3f09-7249-43ef-a703-9b3c5a95d4c1",
+        "type": "expense",
+        "amount": 700,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "f6119252-d22c-4159-b441-ac8a7128b6d5",
+        "date": "2026-10-07T01:34:00.000Z",
+        "createdAt": "2026-10-08T01:35:07.022Z"
+      },
+      {
+        "id": "9449e6fb-70f5-4244-b0e0-26b0ce983a8a",
+        "type": "expense",
+        "amount": 6175,
+        "categoryId": "1faa6b3b-ac86-4dd1-b7f5-800ab0a4071c",
+        "walletId": "f6119252-d22c-4159-b441-ac8a7128b6d5",
+        "date": "2026-10-08T01:36:58.645Z",
+        "createdAt": "2026-10-08T01:37:18.760Z"
+      },
+      {
+        "id": "c5711591-bec7-4156-bd5d-2185ae4a2b09",
+        "type": "transfer",
+        "amount": 100000,
+        "categoryId": "transfer-out",
+        "walletId": "f6119252-d22c-4159-b441-ac8a7128b6d5",
+        "date": "2026-10-08T01:40:21.936Z",
+        "note": "Transfer to MoMo",
+        "createdAt": "2026-10-08T01:40:21.974Z"
+      },
+      {
+        "id": "a5117264-3725-416b-8c4d-f7f304cb2aff",
+        "type": "transfer",
+        "amount": 100000,
+        "categoryId": "transfer-in",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-10-08T01:40:21.936Z",
+        "note": "Transfer from Compte Principal",
+        "createdAt": "2026-10-08T01:40:21.976Z"
+      },
+      {
+        "id": "f3e17656-7701-4acf-b301-fd0c4b73b02d",
+        "type": "transfer",
+        "amount": 100000,
+        "categoryId": "transfer-out",
+        "walletId": "f6119252-d22c-4159-b441-ac8a7128b6d5",
+        "date": "2026-10-08T01:42:10.953Z",
+        "note": "Transfer to Épargne",
+        "createdAt": "2026-10-08T01:42:10.998Z"
+      },
+      {
+        "id": "891718a3-2eae-4496-aab5-7309ddf9fa4f",
+        "type": "transfer",
+        "amount": 100000,
+        "categoryId": "transfer-in",
+        "walletId": "29d6c726-5348-419a-bf89-5ff36600d08c",
+        "date": "2026-10-08T01:42:10.953Z",
+        "note": "Transfer from Compte Principal",
+        "createdAt": "2026-10-08T01:42:11.000Z"
+      },
+      {
+        "id": "fa31bda0-46d7-48cb-a365-a0cd6de2d06f",
+        "type": "expense",
+        "amount": 15150,
+        "categoryId": "d053b9c3-d3bd-4af0-96a5-8cb7d56efd91",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-10-08T01:42:24.821Z",
+        "note": "Recharge SBEE\nFrais de transaction : 150 FCFA",
+        "createdAt": "2026-10-08T01:43:14.133Z"
+      },
+      {
+        "id": "39376a32-cc44-4b2f-b7a0-d7761b3064e6",
+        "type": "expense",
+        "amount": 15275,
+        "categoryId": "1d0f60d4-2e67-4ecb-ac22-73708d7d33c8",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-10-07T01:43:00.000Z",
+        "note": "Réabonnement Isocel Fibre\nFrais de transaction : 275 FCFA",
+        "createdAt": "2026-10-08T01:44:32.050Z"
+      },
+      {
+        "id": "730b7f7c-3935-456c-9528-82ce806cf909",
+        "type": "transfer",
+        "amount": 100000,
+        "categoryId": "transfer-out",
+        "walletId": "29d6c726-5348-419a-bf89-5ff36600d08c",
+        "date": "2026-10-08T01:48:40.752Z",
+        "note": "Transfer to Compte Principal",
+        "createdAt": "2026-10-08T01:48:40.780Z"
+      },
+      {
+        "id": "98fb0d92-01c7-4344-ba37-b9319383c6e8",
+        "type": "transfer",
+        "amount": 100000,
+        "categoryId": "transfer-in",
+        "walletId": "f6119252-d22c-4159-b441-ac8a7128b6d5",
+        "date": "2026-10-08T01:48:40.752Z",
+        "note": "Transfer from Épargne",
+        "createdAt": "2026-10-08T01:48:40.784Z"
+      },
+      {
+        "id": "b1b4fedb-d117-41ee-9982-7dec72e280b2",
+        "type": "expense",
+        "amount": 100000,
+        "categoryId": "e9f33027-b8f4-4354-8707-fadf5534bafb",
+        "walletId": "f6119252-d22c-4159-b441-ac8a7128b6d5",
+        "date": "2026-10-07T01:48:00.000Z",
+        "createdAt": "2026-10-08T01:49:21.886Z"
+      },
+      {
+        "id": "e7ac0c6b-f5f2-4a3a-8557-84b22b13b2a7",
+        "type": "expense",
+        "amount": 25350,
+        "categoryId": "e9f33027-b8f4-4354-8707-fadf5534bafb",
+        "walletId": "f6119252-d22c-4159-b441-ac8a7128b6d5",
+        "date": "2026-10-07T01:51:00.000Z",
+        "note": "Épargne vers ecobank avec frais de transaction ",
+        "createdAt": "2026-10-08T01:52:24.116Z"
+      },
+      {
+        "id": "b79a9a4b-de21-47b8-b16f-07c0922fc4f6",
+        "type": "expense",
+        "amount": 1000,
+        "categoryId": "1faa6b3b-ac86-4dd1-b7f5-800ab0a4071c",
+        "walletId": "f6119252-d22c-4159-b441-ac8a7128b6d5",
+        "date": "2026-10-08T01:56:52.624Z",
+        "note": "Fromage : Vache qui rit ",
+        "createdAt": "2026-10-08T01:57:23.561Z"
+      },
+      {
+        "id": "9909ad1a-ee3f-4ecf-969b-0f3ed579beb6",
+        "type": "transfer",
+        "amount": 12000,
+        "categoryId": "transfer-out",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-10-08T02:06:02.316Z",
+        "note": "Transfer to Carte Virtuelle MTN",
+        "createdAt": "2026-10-08T02:06:02.350Z"
+      },
+      {
+        "id": "847ba922-15cf-4aeb-ac5b-0d03450e3fac",
+        "type": "transfer",
+        "amount": 12000,
+        "categoryId": "transfer-in",
+        "walletId": "a6da3a0f-8073-41f3-9c7f-2f1cb5c6790d",
+        "date": "2026-10-08T02:06:02.316Z",
+        "note": "Transfer from MoMo",
+        "createdAt": "2026-10-08T02:06:02.353Z"
+      },
+      {
+        "id": "2686657d-cce6-4324-bb61-04f8f9e65567",
+        "type": "expense",
+        "amount": 2462,
+        "categoryId": "cfeeaa2b-ac21-448c-9f3e-90c56e12f30c",
+        "walletId": "a6da3a0f-8073-41f3-9c7f-2f1cb5c6790d",
+        "date": "2026-10-04T23:00:00.000Z",
+        "note": "Abonnement Netflix ",
+        "createdAt": "2026-10-08T02:09:10.978Z",
+        "recurringRuleId": "c8d81453-221a-4cde-804f-cc88ed7086f9",
+        "recurringScheduleVersion": 0,
+        "recurringOccurrenceIndex": 0
+      },
+      {
+        "id": "7e600a32-8f03-43ba-a863-d43b6c97c571",
+        "type": "transfer",
+        "amount": 65000,
+        "categoryId": "transfer-out",
+        "walletId": "f6119252-d22c-4159-b441-ac8a7128b6d5",
+        "date": "2026-10-08T02:18:13.259Z",
+        "note": "Transfer to Pocket",
+        "createdAt": "2026-10-08T02:18:13.298Z"
+      },
+      {
+        "id": "90d5edea-19ed-4f81-a834-8ac21a2d2b84",
+        "type": "transfer",
+        "amount": 65000,
+        "categoryId": "transfer-in",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-08T02:18:13.259Z",
+        "note": "Transfer from Compte Principal",
+        "createdAt": "2026-10-08T02:18:13.300Z"
+      },
+      {
+        "id": "0bc1a133-ce29-4a53-9e26-1ee6626eb748",
+        "type": "expense",
+        "amount": 400,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "f6119252-d22c-4159-b441-ac8a7128b6d5",
+        "date": "2026-10-07T02:19:00.000Z",
+        "createdAt": "2026-10-08T02:19:51.438Z"
+      },
+      {
+        "id": "5a46c718-ef9f-4d24-bf91-8833909ee186",
+        "type": "expense",
+        "amount": 25250,
+        "categoryId": "1c0a71a5-3918-45fe-8464-cd5a222789ce",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-10-08T13:10:38.715Z",
+        "note": "Impôt sur salaire",
+        "createdAt": "2026-10-08T15:41:14.010Z"
+      },
+      {
+        "id": "671783d4-0b72-4b82-aaa7-969b79e58cfa",
+        "type": "expense",
+        "amount": 7006,
+        "categoryId": "1faa6b3b-ac86-4dd1-b7f5-800ab0a4071c",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-10-08T19:38:57.892Z",
+        "note": "Erevan : Café en bouteille, rasoir, ampoule",
+        "createdAt": "2026-10-08T19:39:55.525Z"
+      },
+      {
+        "id": "cccff750-c6c5-40f4-a5c6-6660f4fc95db",
+        "type": "expense",
+        "amount": 300,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-08T19:40:02.022Z",
+        "note": "Aller-retour : erevan - maison",
+        "createdAt": "2026-10-08T19:40:47.026Z"
+      },
+      {
+        "id": "26e84b17-c363-401d-9032-b2314c53f413",
+        "type": "expense",
+        "amount": 1600,
+        "categoryId": "e5629b8c-5316-46f6-ba63-8ce9a258f5aa",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-09T09:35:00.000Z",
+        "note": "Dîner : ablô",
+        "createdAt": "2026-10-10T09:35:42.010Z"
+      },
+      {
+        "id": "a82e834f-cdf4-4bb2-ac71-c5fd408bea6b",
+        "type": "expense",
+        "amount": 10050,
+        "categoryId": "cd30d3bc-1780-49a5-b21d-75a60ab17ceb",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-10-10T09:35:55.857Z",
+        "note": "Envoi à Papa pour déblocage de situation difficile",
+        "createdAt": "2026-10-10T09:42:12.696Z"
+      },
+      {
+        "id": "3230a817-ae68-4585-9e69-ef11092dbf6e",
+        "type": "expense",
+        "amount": 5613,
+        "categoryId": "dfc60151-3639-4c5c-8705-c2e0f9c00931",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-10-08T10:15:00.000Z",
+        "note": "Facture d'eau ",
+        "createdAt": "2026-10-10T10:15:37.259Z"
+      },
+      {
+        "id": "4ff11082-f70d-465d-9daf-48253faded5d",
+        "type": "expense",
+        "amount": 1325,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-10-10T22:15:54.936Z",
+        "note": "Yango : Maison > Matistore",
+        "createdAt": "2026-10-10T22:16:45.904Z"
+      },
+      {
+        "id": "7e6b5e13-c167-439b-878f-c451706818c8",
+        "type": "expense",
+        "amount": 15300,
+        "categoryId": "b0192c24-e6ac-45df-9773-92d8bdb9b97f",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-10T22:16:58.129Z",
+        "note": "Achat de blender binatone à Matistore",
+        "createdAt": "2026-10-10T22:18:00.790Z"
+      },
+      {
+        "id": "a8850d00-5b21-4fb7-b050-33fed2a44b11",
+        "type": "expense",
+        "amount": 1925,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-10-10T22:18:05.081Z",
+        "note": "Yango : Matistore > Dalured Fidjrosse ",
+        "createdAt": "2026-10-10T22:19:01.632Z"
+      },
+      {
+        "id": "5e2a09ca-70c6-4665-aea1-c358619842f2",
+        "type": "expense",
+        "amount": 4000,
+        "categoryId": "b0192c24-e6ac-45df-9773-92d8bdb9b97f",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-10-10T22:19:12.061Z",
+        "note": "Haircut Dalured",
+        "createdAt": "2026-10-10T22:20:28.347Z"
+      },
+      {
+        "id": "278c4d75-3330-4fc5-8407-1755e8999d51",
+        "type": "expense",
+        "amount": 1100,
+        "categoryId": "5440dd28-1b5b-41f2-8a7f-8c7d4a0134a8",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-10-10T22:20:55.403Z",
+        "note": "Sucre vanillé ",
+        "createdAt": "2026-10-10T22:22:34.539Z"
+      },
+      {
+        "id": "b456e2b8-7c8b-492d-a446-b951f34f4b93",
+        "type": "expense",
+        "amount": 1050,
+        "categoryId": "cd30d3bc-1780-49a5-b21d-75a60ab17ceb",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-10-10T22:22:37.401Z",
+        "note": "Cotisation pour Étie",
+        "createdAt": "2026-10-10T22:24:18.586Z"
+      },
+      {
+        "id": "c8c3ae49-a92b-45a5-b2c1-764254498548",
+        "type": "income",
+        "amount": 2050,
+        "categoryId": "c5410861-15e7-476a-8060-10a53863bb89",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-10-11T21:07:19.807Z",
+        "note": "UBA vers momo avec 50 FCFA pour frais de retrait",
+        "createdAt": "2026-10-11T21:09:10.447Z"
+      },
+      {
+        "id": "85b7006e-59d1-4914-b0e6-2d6215d3ce2e",
+        "type": "income",
+        "amount": 550,
+        "categoryId": "c5410861-15e7-476a-8060-10a53863bb89",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-10-11T21:09:12.593Z",
+        "note": "UBA vers momo \nFrais de transaction : 50 FCFA",
+        "createdAt": "2026-10-11T21:09:43.317Z"
+      },
+      {
+        "id": "c5fc745e-a811-41c7-a55d-6a9d2019e17d",
+        "type": "expense",
+        "amount": 100,
+        "categoryId": "1d0f60d4-2e67-4ecb-ac22-73708d7d33c8",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-10-11T21:09:44.655Z",
+        "note": "Forfait internet ",
+        "createdAt": "2026-10-11T21:10:28.035Z"
+      },
+      {
+        "id": "ebacf769-31df-4e45-af9a-e010deb02879",
+        "type": "expense",
+        "amount": 1050,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-10-11T21:10:29.844Z",
+        "note": "Yango : maison > Le Ruisseau",
+        "createdAt": "2026-10-11T21:11:20.748Z"
+      },
+      {
+        "id": "fb3e185a-2222-45b0-b90e-954b3e443fbd",
+        "type": "expense",
+        "amount": 1050,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-10-11T21:11:21.851Z",
+        "note": "Yango : Le Ruisseau > Maison \nFrais de transaction : 50 FCFA ",
+        "createdAt": "2026-10-11T21:12:32.375Z"
+      },
+      {
+        "id": "7e3445ea-18e7-4e65-aecf-37690bedf71a",
+        "type": "expense",
+        "amount": 100,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-11T21:13:25.291Z",
+        "note": "Complément du transport, Le Ruisseau > Maison ",
+        "createdAt": "2026-10-11T21:14:10.120Z"
+      },
+      {
+        "id": "c4853de2-f79a-4abd-99cb-e1542732fcb8",
+        "type": "expense",
+        "amount": 11750,
+        "categoryId": "1faa6b3b-ac86-4dd1-b7f5-800ab0a4071c",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-11T21:14:12.527Z",
+        "note": "Achat à Le Ruisseau ",
+        "createdAt": "2026-10-11T21:14:58.396Z"
+      },
+      {
+        "id": "1545a8c6-61d9-408c-a1d0-cfe2c6ae61c7",
+        "type": "expense",
+        "amount": 300,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-12T20:14:26.316Z",
+        "note": "Maison > Bibliothèque Fondation Vallet",
+        "createdAt": "2026-10-12T20:15:09.907Z"
+      },
+      {
+        "id": "3f80623c-cc6c-496e-be02-73761d75b17f",
+        "type": "expense",
+        "amount": 600,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-12T20:15:12.672Z",
+        "note": "Bibliothèque Fondation Vallet > Maison avec arrêt sur le chemin pour prendre le déjeuner ",
+        "createdAt": "2026-10-12T20:16:00.914Z"
+      },
+      {
+        "id": "5e950b0d-402b-4c84-93f4-a6a9f5ded242",
+        "type": "expense",
+        "amount": 750,
+        "categoryId": "e5629b8c-5316-46f6-ba63-8ce9a258f5aa",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-12T20:16:03.246Z",
+        "note": "Déjeuner",
+        "createdAt": "2026-10-12T20:16:23.537Z"
+      },
+      {
+        "id": "d705c2a9-3cf3-4136-88db-49d7d217bb04",
+        "type": "expense",
+        "amount": 11730,
+        "categoryId": "3ecebbcf-f9eb-431f-8971-708abf3c45be",
+        "walletId": "a6da3a0f-8073-41f3-9c7f-2f1cb5c6790d",
+        "date": "2026-10-11T23:00:00.000Z",
+        "note": "Abonnement Claude",
+        "createdAt": "2026-10-12T20:19:13.729Z",
+        "recurringRuleId": "f8e089cd-0b99-48b6-a579-23052de0c09c",
+        "recurringScheduleVersion": 0,
+        "recurringOccurrenceIndex": 0
+      },
+      {
+        "id": "c25ebd9e-3d91-49d7-9290-6e39b59e3dc9",
+        "type": "expense",
+        "amount": 300,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-13T18:41:15.025Z",
+        "note": "Maison > Bibliothèque Fondation Vallet ",
+        "createdAt": "2026-10-13T18:41:43.006Z"
+      },
+      {
+        "id": "d9e548b4-fc27-4c88-8f95-e34460c4cd31",
+        "type": "expense",
+        "amount": 400,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-13T18:41:45.469Z",
+        "note": "Fondation Vallet > Maison ",
+        "createdAt": "2026-10-13T18:42:12.320Z"
+      },
+      {
+        "id": "599b183a-c13c-4f6f-bfe0-73d202871918",
+        "type": "expense",
+        "amount": 550,
+        "categoryId": "e5629b8c-5316-46f6-ba63-8ce9a258f5aa",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-13T18:42:13.829Z",
+        "note": "Déjeuner",
+        "createdAt": "2026-10-13T18:42:42.818Z"
+      },
+      {
+        "id": "5f79ec4e-c102-4e17-ba08-353e7d12c614",
+        "type": "expense",
+        "amount": 3400,
+        "categoryId": "67279773-adc0-48d3-9989-fa84ca398ab1",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-13T00:53:00.000Z",
+        "note": "Vermifuge, Bekrazol : 850 x4",
+        "createdAt": "2026-10-14T00:54:37.689Z"
+      },
+      {
+        "id": "ea5f415f-e922-4ae2-aa27-64a01ce67c5e",
+        "type": "expense",
+        "amount": 650,
+        "categoryId": "e5629b8c-5316-46f6-ba63-8ce9a258f5aa",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-14T19:27:21.059Z",
+        "note": "Déjeuner",
+        "createdAt": "2026-10-14T19:27:51.742Z"
+      },
+      {
+        "id": "ad65cae9-8fb5-47f2-a03c-bb565829e21b",
+        "type": "expense",
+        "amount": 200,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-14T19:27:54.194Z",
+        "createdAt": "2026-10-14T19:28:09.254Z"
+      },
+      {
+        "id": "a869ab29-4972-44d8-b467-ccbaac5cb592",
+        "type": "expense",
+        "amount": 300,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-15T19:06:57.997Z",
+        "note": "Maison > Bibliothèque Fondation Vallet ",
+        "createdAt": "2026-10-15T19:07:28.914Z"
+      },
+      {
+        "id": "ff1ec205-e680-42ee-bb58-a8ade1e58730",
+        "type": "expense",
+        "amount": 650,
+        "categoryId": "e5629b8c-5316-46f6-ba63-8ce9a258f5aa",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-15T19:07:31.129Z",
+        "note": "Déjeuner ",
+        "createdAt": "2026-10-15T19:07:47.152Z"
+      },
+      {
+        "id": "a53de66b-a85a-4d17-b1e9-c9d55098dafe",
+        "type": "expense",
+        "amount": 300,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-15T19:07:54.871Z",
+        "note": "Bibliothèque Fondation Vallet > Maison ",
+        "createdAt": "2026-10-15T19:08:24.912Z"
+      },
+      {
+        "id": "ca291b5f-1984-4879-9279-40e35b4f4106",
+        "type": "expense",
+        "amount": 2000,
+        "categoryId": "e5629b8c-5316-46f6-ba63-8ce9a258f5aa",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-15T19:08:26.678Z",
+        "note": "Viande Tchang pour le dîner ",
+        "createdAt": "2026-10-15T19:09:18.129Z"
+      },
+      {
+        "id": "9380e720-500a-4d70-b585-3793aaf619b5",
+        "type": "expense",
+        "amount": 100,
+        "categoryId": "b57489f7-dae1-4741-a4c3-bd7e89e278e8",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-10-15T19:09:36.410Z",
+        "note": "Forfait internet ",
+        "createdAt": "2026-10-15T19:09:52.015Z"
+      },
+      {
+        "id": "6f46e397-5794-41fc-8ff9-a009954d8b60",
+        "type": "expense",
+        "amount": 400,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-16T19:45:47.051Z",
+        "note": "Maison > Bibliothèque Fondation Vallet ",
+        "createdAt": "2026-10-16T19:46:16.889Z"
+      },
+      {
+        "id": "ae849940-93e7-484e-a22e-e117aeb36a8c",
+        "type": "expense",
+        "amount": 800,
+        "categoryId": "e5629b8c-5316-46f6-ba63-8ce9a258f5aa",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-16T19:46:18.499Z",
+        "note": "Déjeuner ",
+        "createdAt": "2026-10-16T19:46:38.252Z"
+      },
+      {
+        "id": "fb0e2c8a-59d4-4e7e-86ce-2a48e3ce6d94",
+        "type": "expense",
+        "amount": 100,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-16T19:46:45.588Z",
+        "note": "Adjarra > Maison",
+        "createdAt": "2026-10-16T19:47:16.923Z"
+      },
+      {
+        "id": "baa59603-9d25-4189-b8a5-f76ffe5ea354",
+        "type": "expense",
+        "amount": 2000,
+        "categoryId": "1faa6b3b-ac86-4dd1-b7f5-800ab0a4071c",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-17T20:58:06.563Z",
+        "note": "Tomates et oignons ",
+        "createdAt": "2026-10-17T20:58:34.599Z"
+      },
+      {
+        "id": "4c2303f7-5a01-49f6-af18-51ae205ad9e0",
+        "type": "expense",
+        "amount": 200,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-17T20:58:36.333Z",
+        "createdAt": "2026-10-17T20:58:56.060Z"
+      },
+      {
+        "id": "56f3c994-8b0a-4bed-882c-db3d40114a03",
+        "type": "expense",
+        "amount": 5200,
+        "categoryId": "b0192c24-e6ac-45df-9773-92d8bdb9b97f",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-17T20:58:57.934Z",
+        "note": "Course au supermarché neo market : pain de mie, savon de douche, chocolat ",
+        "createdAt": "2026-10-17T21:00:29.429Z"
+      },
+      {
+        "id": "b6d0b146-efd0-418f-a776-102a76ebb732",
+        "type": "expense",
+        "amount": 2500,
+        "categoryId": "e5629b8c-5316-46f6-ba63-8ce9a258f5aa",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-17T21:00:32.305Z",
+        "note": "Viande de boeuf : Tchang ",
+        "createdAt": "2026-10-17T21:01:39.209Z"
+      },
+      {
+        "id": "c4dc5102-76d2-4ad2-a334-15fefd599c87",
+        "type": "expense",
+        "amount": 100,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-17T21:01:41.114Z",
+        "createdAt": "2026-10-17T21:01:51.097Z"
+      },
+      {
+        "id": "9bfdf88a-9c25-4e24-bfa6-d87ed36ea793",
+        "type": "expense",
+        "amount": 500,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-18T21:32:11.160Z",
+        "note": "Maison > Agbato",
+        "createdAt": "2026-10-18T21:33:06.060Z"
+      },
+      {
+        "id": "41add02f-cbf9-4bbf-833c-bd3cc28a4462",
+        "type": "expense",
+        "amount": 500,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-18T21:33:16.805Z",
+        "note": "Agbato > Maison ",
+        "createdAt": "2026-10-18T21:33:47.948Z"
+      },
+      {
+        "id": "6b971014-7e50-4ba7-b98e-6ab197404743",
+        "type": "expense",
+        "amount": 2800,
+        "categoryId": "1faa6b3b-ac86-4dd1-b7f5-800ab0a4071c",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-18T21:33:52.101Z",
+        "note": "Plateau d'œuf ",
+        "createdAt": "2026-10-18T21:34:18.985Z"
+      },
+      {
+        "id": "3e32ab10-c1cb-4523-8fe5-c4942a920184",
+        "type": "expense",
+        "amount": 700,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-18T21:34:23.542Z",
+        "note": "Maison > Place de l'amazone ",
+        "createdAt": "2026-10-18T21:35:08.251Z"
+      },
+      {
+        "id": "a238c7a4-1a38-4273-9597-32e79585de5b",
+        "type": "expense",
+        "amount": 700,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-18T21:35:12.477Z",
+        "note": "Place de l'amazone > Maison \nGrâce au code promo de bae 🥰",
+        "createdAt": "2026-10-18T21:36:33.214Z"
+      },
+      {
+        "id": "563bea96-6698-4b5e-887b-771112def79b",
+        "type": "expense",
+        "amount": 200,
+        "categoryId": "b57489f7-dae1-4741-a4c3-bd7e89e278e8",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-10-18T21:44:26.720Z",
+        "note": "Forfait internet de 100 FCFA x2",
+        "createdAt": "2026-10-18T21:45:01.357Z"
+      },
+      {
+        "id": "05bf3efc-1b17-4b85-bc0d-279bc852c793",
+        "type": "transfer",
+        "amount": 3000,
+        "categoryId": "transfer-out",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-20T01:05:06.622Z",
+        "note": "Transfer to MoMo",
+        "createdAt": "2026-10-20T01:05:06.657Z"
+      },
+      {
+        "id": "276cdd6e-7e45-4778-82ff-a9483e4e293f",
+        "type": "transfer",
+        "amount": 3000,
+        "categoryId": "transfer-in",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-10-20T01:05:06.622Z",
+        "note": "Transfer from Pocket",
+        "createdAt": "2026-10-20T01:05:06.658Z"
+      },
+      {
+        "id": "6b53d595-40d6-4227-9d3a-02fdcc654e62",
+        "type": "expense",
+        "amount": 550,
+        "categoryId": "e5629b8c-5316-46f6-ba63-8ce9a258f5aa",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-19T01:05:00.000Z",
+        "note": "Déjeuner ",
+        "createdAt": "2026-10-20T01:05:30.491Z"
+      },
+      {
+        "id": "a89ec161-6e2e-4e87-aa9f-627375053213",
+        "type": "expense",
+        "amount": 250,
+        "categoryId": "1faa6b3b-ac86-4dd1-b7f5-800ab0a4071c",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-19T01:05:00.000Z",
+        "note": "Omo",
+        "createdAt": "2026-10-20T01:06:16.482Z"
+      },
+      {
+        "id": "091a7a2e-1903-4233-937a-a4c963a8c0d5",
+        "type": "expense",
+        "amount": 200,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-19T01:06:00.000Z",
+        "createdAt": "2026-10-20T01:06:34.962Z"
+      },
+      {
+        "id": "ae4f6499-38d3-4c04-8b61-78cdd24adb12",
+        "type": "expense",
+        "amount": 500,
+        "categoryId": "e5629b8c-5316-46f6-ba63-8ce9a258f5aa",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-20T17:50:58.185Z",
+        "note": "Déjeuner ",
+        "createdAt": "2026-10-20T17:51:16.015Z"
+      },
+      {
+        "id": "30e966fc-640d-4072-94b0-4cc02fdb06f7",
+        "type": "expense",
+        "amount": 200,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-20T17:51:18.266Z",
+        "createdAt": "2026-10-20T17:51:36.554Z"
+      },
+      {
+        "id": "c14f6968-16b6-486b-8dff-4b49ec5029e4",
+        "type": "expense",
+        "amount": 400,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-21T17:12:52.849Z",
+        "createdAt": "2026-10-21T17:13:21.586Z"
+      },
+      {
+        "id": "85841a94-b846-424e-90b9-0391b6d09887",
+        "type": "expense",
+        "amount": 900,
+        "categoryId": "e5629b8c-5316-46f6-ba63-8ce9a258f5aa",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-21T17:13:22.969Z",
+        "note": "Déjeuner ",
+        "createdAt": "2026-10-21T17:13:41.841Z"
+      },
+      {
+        "id": "851781a0-f07a-417a-939b-231dd4b75187",
+        "type": "expense",
+        "amount": 200,
+        "categoryId": "b57489f7-dae1-4741-a4c3-bd7e89e278e8",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-10-21T17:13:53.120Z",
+        "note": "Forfait internet MTN ",
+        "createdAt": "2026-10-21T17:14:21.331Z"
+      },
+      {
+        "id": "f465b4b7-104f-450c-8b84-a2312f9ba1f7",
+        "type": "expense",
+        "amount": 125,
+        "categoryId": "e5629b8c-5316-46f6-ba63-8ce9a258f5aa",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-22T18:00:01.561Z",
+        "note": "Petit déjeuner ",
+        "createdAt": "2026-10-22T18:00:29.395Z"
+      },
+      {
+        "id": "879bd356-00cf-4b04-ab8e-ad7bad2cbb27",
+        "type": "expense",
+        "amount": 550,
+        "categoryId": "e5629b8c-5316-46f6-ba63-8ce9a258f5aa",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-10-22T18:00:31.075Z",
+        "note": "Déjeuner ",
+        "createdAt": "2026-10-22T18:00:55.238Z"
+      },
+      {
+        "id": "94c13e58-4b35-4c24-bbb1-50d59ec7433c",
+        "type": "expense",
+        "amount": 200,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-22T18:01:01.697Z",
+        "createdAt": "2026-10-22T18:01:13.975Z"
+      },
+      {
+        "id": "b4bb5566-5289-42aa-9be4-1a11bdc633ab",
+        "type": "expense",
+        "amount": 500,
+        "categoryId": "e5629b8c-5316-46f6-ba63-8ce9a258f5aa",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-23T18:25:40.164Z",
+        "createdAt": "2026-10-23T18:25:57.146Z"
+      },
+      {
+        "id": "47dd3151-3643-433d-a702-67e8ad5d7f8b",
+        "type": "expense",
+        "amount": 300,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-23T18:25:58.541Z",
+        "createdAt": "2026-10-23T18:26:08.423Z"
+      },
+      {
+        "id": "d38c4661-a4ad-4e5c-a5fe-9dea9a31ca00",
+        "type": "expense",
+        "amount": 4000,
+        "categoryId": "5440dd28-1b5b-41f2-8a7f-8c7d4a0134a8",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-23T18:43:49.627Z",
+        "note": "Plomberie ",
+        "createdAt": "2026-10-23T18:44:24.819Z"
+      },
+      {
+        "id": "2f603105-4cc1-4355-8b20-8aa9aea2a78c",
+        "type": "income",
+        "amount": 25000,
+        "categoryId": "c5410861-15e7-476a-8060-10a53863bb89",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-23T18:30:00.000Z",
+        "note": "Retrait guichet ",
+        "createdAt": "2026-10-25T18:32:20.642Z"
+      },
+      {
+        "id": "8abdf01b-f787-45df-b619-011a5db92917",
+        "type": "expense",
+        "amount": 500,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-24T18:32:00.000Z",
+        "createdAt": "2026-10-25T18:32:59.416Z"
+      },
+      {
+        "id": "ce50729d-f765-474e-bb0b-17823593b359",
+        "type": "expense",
+        "amount": 1000,
+        "categoryId": "e5629b8c-5316-46f6-ba63-8ce9a258f5aa",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-24T18:33:00.000Z",
+        "createdAt": "2026-10-25T18:33:26.405Z"
+      },
+      {
+        "id": "2bb44d38-7279-4306-bb58-cfcf60b2a692",
+        "type": "expense",
+        "amount": 3000,
+        "categoryId": "b0192c24-e6ac-45df-9773-92d8bdb9b97f",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-24T18:35:00.000Z",
+        "note": "Haircut 💈",
+        "createdAt": "2026-10-25T18:36:01.239Z"
+      },
+      {
+        "id": "2568fe13-f825-4cb1-96f9-2efe8028cc55",
+        "type": "expense",
+        "amount": 200,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-24T18:36:00.000Z",
+        "note": "Maison > Dalured",
+        "createdAt": "2026-10-25T18:36:34.661Z"
+      },
+      {
+        "id": "e60613a0-6186-4bca-a393-1fbebaefcf1f",
+        "type": "expense",
+        "amount": 1125,
+        "categoryId": "b0192c24-e6ac-45df-9773-92d8bdb9b97f",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-24T18:37:00.000Z",
+        "note": "Main-d'œuvre du plombier avec frais de retrait sur celtiis",
+        "createdAt": "2026-10-25T18:38:34.843Z"
+      },
+      {
+        "id": "e4dae965-cf4d-4ff8-a81f-b1fc1e4b911a",
+        "type": "expense",
+        "amount": 375,
+        "categoryId": "b57489f7-dae1-4741-a4c3-bd7e89e278e8",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-24T18:38:00.000Z",
+        "note": "Crédit celtiis",
+        "createdAt": "2026-10-25T18:38:59.917Z"
+      },
+      {
+        "id": "32b15e99-fa00-42ea-b795-801057aca76e",
+        "type": "expense",
+        "amount": 200,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-23T18:44:00.000Z",
+        "createdAt": "2026-10-25T18:44:42.473Z"
+      },
+      {
+        "id": "4ae8a2d2-9cde-4394-9d98-664aabce98c9",
+        "type": "expense",
+        "amount": 2600,
+        "categoryId": "e5629b8c-5316-46f6-ba63-8ce9a258f5aa",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-23T18:54:00.000Z",
+        "note": "Dîner : côme + poissons + croupion de dinde ",
+        "createdAt": "2026-10-25T18:55:48.289Z"
+      },
+      {
+        "id": "3af1d926-1492-444d-aea5-890b21243d79",
+        "type": "expense",
+        "amount": 200,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-23T19:02:00.000Z",
+        "note": "Aller-retour du guichet ",
+        "createdAt": "2026-10-25T19:04:04.650Z"
+      },
+      {
+        "id": "5884961d-3c69-4e7b-ad44-1fdcde3c226c",
+        "type": "expense",
+        "amount": 100,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-23T19:04:00.000Z",
+        "note": "Carrefour adjarra > Maison ",
+        "createdAt": "2026-10-25T19:04:46.333Z"
+      },
+      {
+        "id": "bfca329d-0d57-4a60-b405-d75485de58d5",
+        "type": "expense",
+        "amount": 100,
+        "categoryId": "b57489f7-dae1-4741-a4c3-bd7e89e278e8",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-10-26T23:49:04.983Z",
+        "note": "Forfait internet : 100 FCFA ",
+        "createdAt": "2026-10-26T23:49:29.784Z"
+      },
+      {
+        "id": "b3f9ecf7-39d8-41f6-834c-eb9364a2b45c",
+        "type": "expense",
+        "amount": 4350,
+        "categoryId": "1faa6b3b-ac86-4dd1-b7f5-800ab0a4071c",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-27T17:04:05.439Z",
+        "note": "Achat de ce qui est fini ",
+        "createdAt": "2026-10-27T17:04:44.403Z"
+      },
+      {
+        "id": "ce80f588-a003-4ffb-90a2-e9fc8d9a7121",
+        "type": "expense",
+        "amount": 200,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-27T21:30:08.739Z",
+        "createdAt": "2026-10-27T21:30:23.277Z"
+      },
+      {
+        "id": "b2a4ec01-1faa-4c4d-ab9c-2a4c4979f35c",
+        "type": "expense",
+        "amount": 500,
+        "categoryId": "e5629b8c-5316-46f6-ba63-8ce9a258f5aa",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-27T21:30:25.459Z",
+        "createdAt": "2026-10-27T21:30:40.446Z"
+      },
+      {
+        "id": "e2df75a8-3ee8-45fe-80c8-2e1caedc74a6",
+        "type": "expense",
+        "amount": 550,
+        "categoryId": "e5629b8c-5316-46f6-ba63-8ce9a258f5aa",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-29T01:30:00.000Z",
+        "createdAt": "2026-10-30T01:31:20.235Z"
+      },
+      {
+        "id": "a5989f52-215e-4ce0-9382-fb8e5b03602c",
+        "type": "expense",
+        "amount": 551,
+        "categoryId": "b0192c24-e6ac-45df-9773-92d8bdb9b97f",
+        "walletId": "a6da3a0f-8073-41f3-9c7f-2f1cb5c6790d",
+        "date": "2026-10-31T20:57:01.288Z",
+        "note": "Oublie ",
+        "createdAt": "2026-10-31T20:57:46.858Z"
+      },
+      {
+        "id": "e1ee4dd8-dd8d-495a-bd89-1e12ca2a3325",
+        "type": "expense",
+        "amount": 2294,
+        "categoryId": "b0192c24-e6ac-45df-9773-92d8bdb9b97f",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-10-31T21:01:56.540Z",
+        "note": "Oublie ",
+        "createdAt": "2026-10-31T21:02:14.990Z"
+      },
+      {
+        "id": "10f27ba6-91b3-46a5-b8b8-523905fed072",
+        "type": "income",
+        "amount": 530000,
+        "categoryId": "c5410861-15e7-476a-8060-10a53863bb89",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-11-01T21:02:00.000Z",
+        "note": "Effectué fin octobre entre 29-31",
+        "createdAt": "2026-10-31T21:03:17.410Z"
+      },
+      {
+        "id": "6b4dc83f-d45c-44bf-90b3-3e26c8911f7d",
+        "type": "expense",
+        "amount": 202000,
+        "categoryId": "e9f33027-b8f4-4354-8707-fadf5534bafb",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-11-01T21:03:00.000Z",
+        "note": "Epargne ecobank : effectué le 29/10",
+        "createdAt": "2026-10-31T21:07:41.366Z"
+      },
+      {
+        "id": "447e3804-c705-457b-81ac-d82db46c152f",
+        "type": "expense",
+        "amount": 151000,
+        "categoryId": "e9f33027-b8f4-4354-8707-fadf5534bafb",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-11-01T21:08:00.000Z",
+        "note": "Épargne UBA : effectué le 29/10",
+        "createdAt": "2026-10-31T21:09:20.640Z"
+      },
+      {
+        "id": "2d54dff8-d447-4d9d-84c6-f01feeb0b8e9",
+        "type": "expense",
+        "amount": 10200,
+        "categoryId": "e9f33027-b8f4-4354-8707-fadf5534bafb",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-11-01T21:09:00.000Z",
+        "note": "Épargne ecobank : effectué le 29/10",
+        "createdAt": "2026-10-31T21:10:10.305Z"
+      },
+      {
+        "id": "5e7b142c-6504-4f3e-99a3-8bfa6d898d7e",
+        "type": "expense",
+        "amount": 100,
+        "categoryId": "b57489f7-dae1-4741-a4c3-bd7e89e278e8",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-11-01T21:11:00.000Z",
+        "note": "Forfait internet MTN ",
+        "createdAt": "2026-10-31T21:11:21.580Z"
+      },
+      {
+        "id": "bf3b1b91-202e-495f-a2fd-d667477aadef",
+        "type": "expense",
+        "amount": 12500,
+        "categoryId": "b0192c24-e6ac-45df-9773-92d8bdb9b97f",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-11-01T21:11:00.000Z",
+        "note": "Laverie",
+        "createdAt": "2026-10-31T21:12:09.471Z"
+      },
+      {
+        "id": "86b5f42f-5a8f-43cc-a234-da5e7cb215a8",
+        "type": "expense",
+        "amount": 400,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-10-29T21:15:00.000Z",
+        "createdAt": "2026-10-31T21:16:22.919Z"
+      },
+      {
+        "id": "16441413-4726-4e05-9f87-99b7ebfe4a8e",
+        "type": "expense",
+        "amount": 100,
+        "categoryId": "b57489f7-dae1-4741-a4c3-bd7e89e278e8",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-11-01T21:22:00.000Z",
+        "note": "Forfait internet MTN ",
+        "createdAt": "2026-10-31T21:23:15.807Z"
+      },
+      {
+        "id": "76c870c7-d127-4d69-913d-b49d8a31d02a",
+        "type": "expense",
+        "amount": 900,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-11-01T21:23:00.000Z",
+        "note": "Yango car",
+        "createdAt": "2026-10-31T21:24:04.177Z"
+      },
+      {
+        "id": "47926d79-0a93-49cf-ac1e-62c4daf6ab48",
+        "type": "expense",
+        "amount": 650,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-11-01T21:24:00.000Z",
+        "note": "Yango moto à 2",
+        "createdAt": "2026-10-31T21:24:29.993Z"
+      },
+      {
+        "id": "40674aa4-5b1a-48a7-8f9c-eaeaa8a2311e",
+        "type": "transfer",
+        "amount": 14000,
+        "categoryId": "transfer-out",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-10-31T21:29:07.412Z",
+        "note": "Transfer to Carte Virtuelle MTN",
+        "createdAt": "2026-10-31T21:29:07.459Z"
+      },
+      {
+        "id": "9f46d262-0bb0-4ddd-b766-f4eec1af9446",
+        "type": "transfer",
+        "amount": 14000,
+        "categoryId": "transfer-in",
+        "walletId": "a6da3a0f-8073-41f3-9c7f-2f1cb5c6790d",
+        "date": "2026-10-31T21:29:07.412Z",
+        "note": "Transfer from MoMo",
+        "createdAt": "2026-10-31T21:29:07.461Z"
+      },
+      {
+        "id": "9ec19a2a-39c7-45fb-a350-34201f38d461",
+        "type": "transfer",
+        "amount": 14000,
+        "categoryId": "transfer-out",
+        "walletId": "a6da3a0f-8073-41f3-9c7f-2f1cb5c6790d",
+        "date": "2026-10-31T21:31:09.843Z",
+        "note": "Transfer to MoMo",
+        "createdAt": "2026-10-31T21:31:09.877Z"
+      },
+      {
+        "id": "fe9c37ff-03c4-4c0c-afb4-f4c00a6651b4",
+        "type": "transfer",
+        "amount": 14000,
+        "categoryId": "transfer-in",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-10-31T21:31:09.843Z",
+        "note": "Transfer from Carte Virtuelle MTN",
+        "createdAt": "2026-10-31T21:31:09.880Z"
+      },
+      {
+        "id": "eefbfcc4-7d79-435b-b89a-9e21eeb75b80",
+        "type": "transfer",
+        "amount": 14000,
+        "categoryId": "transfer-out",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-10-31T21:31:50.376Z",
+        "note": "Transfer to Carte Virtuelle MTN",
+        "createdAt": "2026-10-31T21:31:50.416Z"
+      },
+      {
+        "id": "3e503e8b-f598-4f14-a5ad-bc9ccac83e93",
+        "type": "transfer",
+        "amount": 14000,
+        "categoryId": "transfer-in",
+        "walletId": "a6da3a0f-8073-41f3-9c7f-2f1cb5c6790d",
+        "date": "2026-10-31T21:31:50.376Z",
+        "note": "Transfer from MoMo",
+        "createdAt": "2026-10-31T21:31:50.417Z"
+      },
+      {
+        "id": "340ecfe3-9e08-4815-bfc2-59154ba25e60",
+        "type": "expense",
+        "amount": 100750,
+        "categoryId": "e9f33027-b8f4-4354-8707-fadf5534bafb",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-11-01T00:06:12.390Z",
+        "note": "Épargne ecobank ",
+        "createdAt": "2026-11-01T00:06:46.079Z"
+      },
+      {
+        "id": "8aa366f3-8a08-4698-85bc-96bc0aa44816",
+        "type": "expense",
+        "amount": 600,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-11-01T18:26:49.108Z",
+        "createdAt": "2026-11-01T18:27:41.436Z"
+      },
+      {
+        "id": "dc16f90e-e66a-42ad-9dfd-358e8ccd3870",
+        "type": "expense",
+        "amount": 1000,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-11-01T18:27:43.272Z",
+        "createdAt": "2026-11-01T18:28:04.639Z"
+      },
+      {
+        "id": "7e84da4f-d33b-44e6-875c-25bfa6d0a4fe",
+        "type": "expense",
+        "amount": 100,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-11-01T18:28:06.017Z",
+        "createdAt": "2026-11-01T18:28:14.515Z"
+      },
+      {
+        "id": "cd181a88-d8d7-4cee-8f57-5eecc1cffc5c",
+        "type": "expense",
+        "amount": 15275,
+        "categoryId": "1d0f60d4-2e67-4ecb-ac22-73708d7d33c8",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-11-01T18:28:49.727Z",
+        "note": "Abonnement fibre Isocel ",
+        "createdAt": "2026-11-01T18:29:24.443Z"
+      },
+      {
+        "id": "c02df847-19ab-4635-a994-31c5130dba13",
+        "type": "expense",
+        "amount": 15150,
+        "categoryId": "d053b9c3-d3bd-4af0-96a5-8cb7d56efd91",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-11-01T18:29:30.779Z",
+        "createdAt": "2026-11-01T18:29:50.084Z"
+      },
+      {
+        "id": "75487d08-3fb0-4391-b3c1-f58f147a4997",
+        "type": "expense",
+        "amount": 7500,
+        "categoryId": "1faa6b3b-ac86-4dd1-b7f5-800ab0a4071c",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-11-01T18:30:06.730Z",
+        "note": "Pack de 6 desperados, une bouteille d'arachide et une bouteille de noix de cajou grillé ",
+        "createdAt": "2026-11-01T18:31:18.870Z"
+      },
+      {
+        "id": "ca227b0c-62e5-461b-9e36-05bb055e26db",
+        "type": "income",
+        "amount": 10000,
+        "categoryId": "c5410861-15e7-476a-8060-10a53863bb89",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-11-01T21:41:15.312Z",
+        "createdAt": "2026-11-01T21:42:08.922Z"
+      },
+      {
+        "id": "cfe78cb9-d8e9-40de-8cda-c6739772847b",
+        "type": "expense",
+        "amount": 10000,
+        "categoryId": "b0192c24-e6ac-45df-9773-92d8bdb9b97f",
+        "walletId": "5b8bde52-3933-4717-b467-b150f085c00d",
+        "date": "2026-11-01T21:43:53.088Z",
+        "note": "Remboursement de dette pour achat de t-shirt dont l'unité était à 2,5k",
+        "createdAt": "2026-11-01T21:44:30.322Z"
+      },
+      {
+        "id": "8d2b755b-5719-428e-b94d-5a3c30d7fcd2",
+        "type": "expense",
+        "amount": 2500,
+        "categoryId": "e5629b8c-5316-46f6-ba63-8ce9a258f5aa",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-11-01T21:45:11.513Z",
+        "note": "Yaourt à game fest au majestic wologuede",
+        "createdAt": "2026-11-01T21:45:57.923Z"
+      },
+      {
+        "id": "0b7fc1c0-6b3c-485e-a1a8-1e13d117bcf6",
+        "type": "expense",
+        "amount": 2000,
+        "categoryId": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "walletId": "489b1bb5-f581-4cc8-a42c-04fbadf6f5af",
+        "date": "2026-11-01T21:45:59.730Z",
+        "note": "Maison > Majestic wologuede \nMajestic wologuede > Maison ",
+        "createdAt": "2026-11-01T21:47:51.724Z"
+      }
+    ],
+    "categories": [
+      {
+        "id": "e5629b8c-5316-46f6-ba63-8ce9a258f5aa",
+        "name": "Nourriture",
+        "type": "expense",
+        "icon": "restaurant",
+        "color": "#FFB74D"
+      },
+      {
+        "id": "e51edfc2-82de-4f6a-a7e5-e41f5570339e",
+        "name": "Transport",
+        "type": "expense",
+        "icon": "car",
+        "color": "#E57373"
+      },
+      {
+        "id": "c1811cc6-4236-4a7a-9acd-3eb95d2ca341",
+        "name": "Logement",
+        "type": "expense",
+        "icon": "home",
+        "color": "#64B5F6"
+      },
+      {
+        "id": "dfc60151-3639-4c5c-8705-c2e0f9c00931",
+        "name": "Eau",
+        "type": "expense",
+        "icon": "flash",
+        "color": "#4DD0E1"
+      },
+      {
+        "id": "b57489f7-dae1-4741-a4c3-bd7e89e278e8",
+        "name": "Téléphone",
+        "type": "expense",
+        "icon": "trending-up",
+        "color": "#BA68C8"
+      },
+      {
+        "id": "67279773-adc0-48d3-9989-fa84ca398ab1",
+        "name": "Santé",
+        "type": "expense",
+        "icon": "medical",
+        "color": "#81C784"
+      },
+      {
+        "id": "cd30d3bc-1780-49a5-b21d-75a60ab17ceb",
+        "name": "Aide famille",
+        "type": "expense",
+        "icon": "person",
+        "color": "#9575CD"
+      },
+      {
+        "id": "cfeeaa2b-ac21-448c-9f3e-90c56e12f30c",
+        "name": "Loisirs",
+        "type": "expense",
+        "icon": "film-outline",
+        "color": "#F06292"
+      },
+      {
+        "id": "5440dd28-1b5b-41f2-8a7f-8c7d4a0134a8",
+        "name": "Imprévus",
+        "type": "expense",
+        "icon": "ellipsis-horizontal",
+        "color": "#A1887F"
+      },
+      {
+        "id": "b331439e-3a92-46cd-a0a8-5defe3f0a21f",
+        "name": "Salaire",
+        "type": "income",
+        "icon": "cash",
+        "color": "#66BB6A"
+      },
+      {
+        "id": "c5410861-15e7-476a-8060-10a53863bb89",
+        "name": "Autre",
+        "type": "income",
+        "icon": "trending-up",
+        "color": "#9575CD"
+      },
+      {
+        "id": "d053b9c3-d3bd-4af0-96a5-8cb7d56efd91",
+        "name": "Électricité",
+        "type": "expense",
+        "icon": "flash",
+        "color": "#90A4AE"
+      },
+      {
+        "id": "1d0f60d4-2e67-4ecb-ac22-73708d7d33c8",
+        "name": "Internet",
+        "type": "expense",
+        "icon": "home",
+        "color": "#FFA726"
+      },
+      {
+        "id": "e9f33027-b8f4-4354-8707-fadf5534bafb",
+        "name": "Investissement",
+        "type": "expense",
+        "icon": "person",
+        "color": "#EC407A"
+      },
+      {
+        "id": "1faa6b3b-ac86-4dd1-b7f5-800ab0a4071c",
+        "name": "Emplettes",
+        "type": "expense",
+        "icon": "home",
+        "color": "#66BB6A"
+      },
+      {
+        "id": "b0192c24-e6ac-45df-9773-92d8bdb9b97f",
+        "name": "Autres",
+        "type": "expense",
+        "icon": "ellipsis-horizontal",
+        "color": "#42A5F5"
+      },
+      {
+        "id": "b98d5ed4-be2a-43c6-b8f3-b6b9788460af",
+        "name": "Carte Virtuelle",
+        "type": "expense",
+        "icon": "ellipsis-horizontal",
+        "color": "#26A69A"
+      },
+      {
+        "id": "1c0a71a5-3918-45fe-8464-cd5a222789ce",
+        "name": "Impôts",
+        "type": "expense",
+        "icon": "ellipsis-horizontal",
+        "color": "#FFB74D"
+      },
+      {
+        "id": "3ecebbcf-f9eb-431f-8971-708abf3c45be",
+        "name": "Travail",
+        "type": "expense",
+        "icon": "person",
+        "color": "#E57373"
+      }
+    ],
+    "budgets": [],
+    "recurringRules": [
+      {
+        "id": "c8d81453-221a-4cde-804f-cc88ed7086f9",
+        "type": "expense",
+        "amount": 2462,
+        "walletId": "a6da3a0f-8073-41f3-9c7f-2f1cb5c6790d",
+        "categoryId": "cfeeaa2b-ac21-448c-9f3e-90c56e12f30c",
+        "description": "Abonnement Netflix ",
+        "startDate": "2026-10-05T02:06:00.000Z",
+        "frequency": "monthly",
+        "interval": 1,
+        "lastGeneratedDate": "2026-10-04T23:00:00.000Z",
+        "lastGeneratedIndex": 0,
+        "scheduleVersion": 0,
+        "isPaused": false,
+        "createdAt": "2026-10-08T02:09:10.932Z"
+      },
+      {
+        "id": "f8e089cd-0b99-48b6-a579-23052de0c09c",
+        "type": "expense",
+        "amount": 11730,
+        "walletId": "a6da3a0f-8073-41f3-9c7f-2f1cb5c6790d",
+        "categoryId": "3ecebbcf-f9eb-431f-8971-708abf3c45be",
+        "description": "Abonnement Claude",
+        "startDate": "2026-10-12T20:18:38.580Z",
+        "frequency": "monthly",
+        "interval": 1,
+        "lastGeneratedDate": "2026-10-11T23:00:00.000Z",
+        "lastGeneratedIndex": 0,
+        "scheduleVersion": 0,
+        "isPaused": false,
+        "createdAt": "2026-10-12T20:19:13.685Z"
+      }
+    ],
+    "settings": {
+      "theme": "system",
+      "currency": "XOF",
+      "currencyLocked": true,
+      "notificationsEnabled": true,
+      "language": "en",
+      "dateFormat": "DD/MM/YYYY",
+      "firstDayOfWeek": "monday",
+      "decimalSeparator": "space",
+      "onboardingCompleted": true
+    }
+  }
+}
